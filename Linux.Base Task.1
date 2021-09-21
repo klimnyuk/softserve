@@ -1,0 +1,23 @@
+sudo su
+passwd root: /etc/shadow
+w; who: JCPU, PCPU, connetcion adress, load avarage
+man who
+more --help
+less .bash_history
+tree | grep c
+file .bash*
+cd /home/klimnyuk; cd ~; cd ..; cd
+ll; ls -a -l -i
+mkdir some-directory
+sudo tree /root > some-directory/some-file.txt
+cat some-directory/some-file.txt
+cp some-directory/some-file.txt /home/klimnyuk/some-file.txt
+rm -rf some-directory/
+rm some-file.txt
+mkdir test/
+cp .bash_history test/labwork2
+ln -s test/labwork2 test/soft-link
+ln test/labwork2 test/hard-link
+mv test/hard-link test/hard_lnk_labwork2
+mv test/soflink test/symb_lnk_labwork2
+rm test/labwork2 -жесткая ссылка на айнод осталась, мягкая ссылка на файл стала битой
