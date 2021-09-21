@@ -26,3 +26,19 @@ df -h; mount
 wc given-file; cat -n given-file
 find /etc/ -exec grep "host" {} \;
 grep -R ss /etc/
+ls -la /etc/ | pr
+ls -l /dev - c - символное стройство, b - блочное
+
+klimnyuk@ubuntu:~$ file *
+123.txt:                            ASCII text
+access.log_2021-09-12_10-27-48.tar: gzip compressed data, from Unix, truncated
+jooble:                             directory
+jooble1:                            directory
+jpeg-find.sh:                       Bourne-Again shell script, ASCII text executable
+my_dump.sql:                        ASCII text, with very long lines
+nohup.out:                          empty
+sort:                               ASCII text
+traffic.sh:                         Bourne-Again shell script, ASCII text executable
+typescript:                         UTF-8 Unicode text, with very long lines, with CRLF, CR, LF line terminators, with escape sequences, with overstriking
+
+ls -u /etc/ | head -n 5
