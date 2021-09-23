@@ -34,7 +34,6 @@ find /etc/ -exec grep "host" {} \; #using find command to locate files with host
 grep -R ss /etc/ #listing all objects in /etc that contain the ss character sequence
 ls -la /etc/ | pr #that contain the ss character sequence
 ls -l /dev #character devices and block devices
-
 klimnyuk@ubuntu:~$ file * #determining files type in my home direcoty
 123.txt:                            ASCII text
 jpeg-find.sh:                       Bourne-Again shell script, ASCII text executable
@@ -43,5 +42,4 @@ nohup.out:                          empty
 sort:                               ASCII text
 traffic.sh:                         Bourne-Again shell script, ASCII text executable
 typescript:                         UTF-8 Unicode text, with very long lines, with CRLF, CR, LF line terminators, with escape sequences, with overstriking
-
 ls -u /etc/ | head -n 5 #Listing the first 5 directory files that were recently accessed in the /etc directory
